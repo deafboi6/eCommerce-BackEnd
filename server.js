@@ -15,5 +15,4 @@ sequelize.sync({ force: false }).then(() => {
     console.log(`App listening on port ${PORT}!`);
   });
 });
-// sync sequelize models to the database, then turn on the server
 
